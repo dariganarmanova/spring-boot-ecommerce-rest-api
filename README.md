@@ -1,4 +1,4 @@
-## REST API PROJECT FOR ECOMMERCE INCLUDING SPRING SECURITY
+## Rest API project for ecommerce with spring security (jwt authentication) 
 
 ## tech stack:
 
