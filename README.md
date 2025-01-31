@@ -1,4 +1,4 @@
-# REST API PROJECT FOR ECOMMERCE INCLUDING SPRING SECURITY
+## REST API PROJECT FOR ECOMMERCE INCLUDING SPRING SECURITY
 
 ## tech stack:
 
@@ -40,9 +40,9 @@ mvn spring-boot:run
 
 | Method | Endpoint              | Description                                                                                                              |
 | ------ | --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `GET`  | `/getProducts`        | Get all products                                                                                                         |
-| `POST` | `/products`           | Can only be accessed by admin and the products can be created by admin                                                   |
-| `POST` | `/api/register`       | Create the user, register with token and role based                                                                      |
-| `POST` | `/api/authentication` | Authenticate with JWT token                                                                                              |
-| `POST` | `/cart/{id}`          | Put the product into the user's cart with the product id provided, in the body the quantity has to be sent by the client |
-| `POST` | `/createOrder/{id}`   | Create the order with the cart's id provided, in the body the client has to pass the quantity                            |
+| `GET`  | `/getProducts`        | Get all products (can be accessed by admin only)                                                                                                         |
+| `POST` | `/products`           | Can only be accessed by admin and the products can be created by admin.                                                   |
+| `POST` | `/api/register`       | Create the user, register with token and role based.                                                                      |
+| `POST` | `/api/authentication` | Authenticate with JWT token.                                                                                              |
+| `POST` | `/cart/{id}`          | Put the product into the user's cart with the product id provided, in the body the quantity has to be sent by the client. |
+| `POST` | `/createOrder/{id}`   | Create the order with the cart's id provided, in the body the client has to pass the quantity.                           |
